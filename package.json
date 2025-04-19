@@ -1,0 +1,47 @@
+{
+  "name": "copilot-attach-open-files",
+  "displayName": "Attach Open Files to Copilot",
+  "description": "Quickly add all open file tabs to GitHub Copilot Chat context.",
+  "version": "0.0.1",
+  "publisher": "therealartti",
+  "icon": "icon.png",
+  "keywords": [
+    "copilot",
+    "chat",
+    "context",
+    "file"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/therealartti/copilot-attach-open-files.git"
+  },
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "copilot-attach-open-files.attachOpenFiles",
+        "title": "Attach Open Files to Copilot Chat"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.99.0",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "typescript": "^5.8.2"
+  }
+}
