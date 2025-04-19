@@ -2,7 +2,7 @@
   "name": "copilot-attach-open-files",
   "displayName": "Attach Open Files to Copilot",
   "description": "Quickly add all open file tabs to GitHub Copilot Chat context.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "therealartti",
   "icon": "icon.png",
   "keywords": [
